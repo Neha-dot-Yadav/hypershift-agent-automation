@@ -4,7 +4,6 @@ set -x
 set -e
 
 LB_NAME="${HOSTED_CLUSTER_NAME}-lb"
-LB_ID=""
 
 dns_entry() {
     # Create DNS entery
